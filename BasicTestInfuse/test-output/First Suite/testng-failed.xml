@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [First Suite]">
+  <listeners>
+    <listener class-name="CommonUtilities.TestListerners"/>
+  </listeners>
+  <test thread-count="5" name="NewTest(failed)">
+    <parameter name="dishName" value="Cheesy Pork Burrito"/>
+    <classes>
+      <class name="HonestFoodCompany.BasicTest.addToCartTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="addToCartFuntion"/>
+        </methods>
+      </class> <!-- HonestFoodCompany.BasicTest.addToCartTest -->
+    </classes>
+  </test> <!-- NewTest(failed) -->
+</suite> <!-- Failed suite [First Suite] -->
