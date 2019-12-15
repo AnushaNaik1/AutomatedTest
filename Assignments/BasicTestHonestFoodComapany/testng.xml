@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="First Suite" verbose="1">
+<listeners>
+<listener class-name="CommonUtilities.TestListerners"/>
+</listeners>
+	
+<test name="NewTest">
+		<parameter name ="dishName" value="Cheesy Pork Burrito"/>
+		<packages>
+			<package name="HonestFoodCompany.BasicTest.*"/>
+		</packages>
+	</test>
+
+</suite>

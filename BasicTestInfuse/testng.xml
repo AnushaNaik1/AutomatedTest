@@ -9,7 +9,7 @@
 		
 		<packages>
 		
-			<package name="HonestFoodCompany.BasicTest"/>
+			<package name="DiggSite"/>
 		</packages>
 	</test>
 
